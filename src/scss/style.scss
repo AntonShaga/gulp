@@ -1,0 +1,18 @@
+@import "./fonts";
+body {
+  font-family:FontsFree;
+  background-color: green;
+  background-image: url('@img/637640_636864.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 55px;
+}
+@media (max-width: 700px) {
+  body { 
+  background-color: #fff;
+  } 
+}
+@media (max-width: 700px) {
+  span { 
+  background-color: #fff;
+  } 
+}
